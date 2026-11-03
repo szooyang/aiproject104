@@ -30,7 +30,7 @@ st.divider()
 @st.cache_data
 def load_data():
 
-    file_name = "countriesMBTI_16types(6).csv"
+    file_name = "countriesMBTI_16types.csv"
 
     file_path = os.path.join(
         os.path.dirname(os.path.abspath(__file__)),
