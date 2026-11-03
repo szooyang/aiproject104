@@ -59,7 +59,7 @@ df = load_data()
 if df is None:
     st.error(
         "CSV 파일을 찾을 수 없습니다. "
-        "GitHub 저장소에 countriesMBTI_16types(6).csv "
+        "GitHub 저장소에 countriesMBTI_16types.csv "
         "파일을 업로드했는지 확인해 주세요."
     )
     st.stop()
