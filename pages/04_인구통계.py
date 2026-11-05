@@ -47,7 +47,7 @@ def load_data():
 
     file_path = os.path.join(
         os.path.dirname(__file__),
-        "population(4).csv"
+        "population.csv"
     )
 
     if not os.path.exists(file_path):
