@@ -52,7 +52,7 @@ def load_data():
 
     if not os.path.exists(file_path):
         raise FileNotFoundError(
-            "population(4).csv 파일을 찾을 수 없습니다."
+            "population.csv 파일을 찾을 수 없습니다."
         )
 
     # 한글 인코딩 자동 대응
